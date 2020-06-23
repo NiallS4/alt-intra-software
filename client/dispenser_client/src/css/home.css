@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Archivo+Black);
+
+.home_body {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+}
+
+.user_options {
+    width: 100%;
+    margin: auto 0;
+    text-align: center;
+    display: block;
+}
+
+.register_dispenser {
+    text-align: center;
+    padding: 3rem;
+}
+
+.search_dispenser {
+    text-align: center;
+    /* display: inline-block; */
+    padding: 1rem;
+}
+
+.home_buttons {
+    margin: 0 auto;
+    font-family: 'Archivo Black';
+    border: 1px solid black;
+    background: white;
+    color: black !important;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-size: 3.5rem;
+    padding: 2rem 2rem 2rem 2rem;
+}
+
+.home_buttons:hover {
+    font-family: 'Archivo Black';
+    color: black !important;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+  }
+
+  .register {
+    margin: 0 auto;
+    font-family: 'Archivo Black';
+    border: 1px solid black;
+    background: white;
+    color: black !important;
+    text-transform: uppercase;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+    font-size: 3.5rem;
+    padding: 2rem 3.8rem 2rem 3.8rem;
+}
+
+.register:hover {
+    font-family: 'Archivo Black';
+    color: black !important;
+    letter-spacing: 3px;
+    border: 2px solid black;
+    background: none;
+    box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+  }
