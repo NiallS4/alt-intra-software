@@ -73,6 +73,7 @@ class Sanitiser(Resource):
         sanitiser = SanitiserModel.find_by_name(_id)
 
         if sanitiser:
+            sanitiser.curr_level = data["capacity"]
             sanitiser.curr_level = data["curr_level"]
             sanitiser.status = data["status"]
             sanitiser.num_uses = data["num_uses"]
