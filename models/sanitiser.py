@@ -20,7 +20,7 @@ class SanitiserModel(db.Model):
 		self.led_col = led_col
 
 	def json(self):
-		return {"name": self._id, "capacity": self.capacity, "current level": self.curr_level,
+		return {"id": self._id, "capacity": self.capacity, "current level": self.curr_level,
 				"status": self.status, "number of uses": self.num_uses, "led colour": self.led_col}
 
 	@classmethod
