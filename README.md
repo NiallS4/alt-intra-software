@@ -1,3 +1,3 @@
 # alt-intra-software
 
-API url: https://sanitiser-api.herokuapp.com/
+API url: https://sanitiser-api.herokuapp.com/sanitisers
